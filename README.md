@@ -52,7 +52,7 @@ An AI-driven journaling application designed to help users track their thoughts,
    - User data (entries, preferences, survey responses) is stored in secure Firebase collections.
 
 2. **AI & Language Processing**  
-   - **OpenAI GPT-4** mini API for personalized insights, motivations, and counselor chat.  
+   - **OpenAI GPT-4-o-mini** API for personalized insights, motivations, and counselor chat.  
    - Prompt engineering ensures the chatbot behaves in a counselor-like manner, referencing stored user data for context.
 
 3. **Voice-to-Text**  
