@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Define color variables */
+  --color-light-bg: #CCDAD1;      /* Light Background / Base */
+  --color-accent: #9CAEA9;         /* Accent or UI Elements */
+  --color-secondary: #788585;      /* Secondary Accent / Hover / Borders */
+  --color-muted: #6F6866;          /* Muted Text / Subtle Details */
+  --color-primary: #38302E;        /* Primary Text / Headings */
+}
+
+body {
+  background-color: var(--color-light-bg);
+  color: var(--color-primary);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Add these styles for markdown content */
+.prose strong {
+  @apply font-bold;
+}
+
+.prose-sm {
+  @apply text-sm leading-6;
+}
